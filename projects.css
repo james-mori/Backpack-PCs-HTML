@@ -29,8 +29,8 @@
   background-color: var(--dl-color-gray-white);
 }
 .projects-image {
-  width: 58px;
-  height: 68px;
+  width: 6%;
+  height: auto;
   object-fit: cover;
 }
 .projects-logo {
@@ -63,12 +63,8 @@
   color: #3d6e70ff;
 }
 .projects-nav3 {
-  transition: 0.3s;
   font-weight: bold;
   margin-left: var(--dl-space-space-twounits);
-}
-.projects-nav3:hover {
-  color: #3d6e70ff;
 }
 .projects-link {
   transition: 0.3s;

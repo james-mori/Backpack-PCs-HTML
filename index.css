@@ -140,11 +140,7 @@
   justify-content: center;
 }
 .home-nav1 {
-  transition: 0.3s;
   font-weight: bold;
-}
-.home-nav1:hover {
-  color: #3d6e70ff;
 }
 .home-nav3 {
   transition: 0.3s;
