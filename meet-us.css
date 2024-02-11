@@ -522,6 +522,10 @@
   height: 24px;
 }
 @media(max-width: 1200px) {
+  .meet-us-image {
+    width: 6%;
+    height: auto;
+  }
   .meet-us-nav3 {
     text-decoration: none;
   }

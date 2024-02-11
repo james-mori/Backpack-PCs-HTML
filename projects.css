@@ -72,7 +72,6 @@
 }
 .projects-link {
   transition: 0.3s;
-  margin-left: var(--dl-space-space-twounits);
 }
 .projects-link:hover {
   color: #3d6e70ff;
@@ -745,8 +744,9 @@
   height: 24px;
 }
 @media(max-width: 1200px) {
-  .projects-nav1 {
-    text-decoration: none;
+  .projects-image {
+    width: 6%;
+    height: auto;
   }
   .projects-nav3 {
     font-weight: bold;
