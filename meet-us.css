@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
 }
 .meet-us-header {
   width: 100%;
@@ -13,6 +14,7 @@
   padding-top: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
 }
 .meet-us-navbar-interactive {
   width: 90%;
@@ -26,7 +28,6 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: space-between;
-  background-color: var(--dl-color-gray-white);
 }
 .meet-us-image {
   width: 6%;
@@ -280,11 +281,15 @@
   font-style: normal;
   font-weight: 600;
 }
-.meet-us-text25 {
+.meet-us-text16 {
   font-style: normal;
   font-weight: 600;
 }
-.meet-us-text28 {
+.meet-us-text17 {
+  font-style: normal;
+  font-weight: 600;
+}
+.meet-us-text20 {
   font-weight: 800;
 }
 .meet-us-image1 {
@@ -333,16 +338,16 @@
   height: 204px;
   object-fit: cover;
 }
-.meet-us-text30 {
+.meet-us-text22 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   text-align: center;
 }
-.meet-us-text32 {
+.meet-us-text24 {
   font-style: normal;
   font-weight: 400;
 }
-.meet-us-text34 {
+.meet-us-text26 {
   font-weight: 700;
 }
 .meet-us-link {
@@ -384,21 +389,21 @@
   width: 200px;
   object-fit: cover;
 }
-.meet-us-text37 {
+.meet-us-text29 {
   color: var(--dl-color-gray-white);
   text-align: center;
 }
-.meet-us-text39 {
+.meet-us-text31 {
   font-style: normal;
   font-weight: 400;
 }
-.meet-us-text40 {
+.meet-us-text32 {
   font-weight: 700;
 }
-.meet-us-text41 {
+.meet-us-text33 {
   font-weight: 700;
 }
-.meet-us-text42 {
+.meet-us-text34 {
   font-weight: 700;
 }
 .meet-us-link1 {
@@ -444,10 +449,10 @@
   font-size: 2em;
   font-weight: bold;
 }
-.meet-us-text43 {
+.meet-us-text35 {
   color: #ffffff;
 }
-.meet-us-text44 {
+.meet-us-text36 {
   color: rgb(255, 255, 255);
 }
 .meet-us-nav1 {
@@ -503,7 +508,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.meet-us-text48 {
+.meet-us-text40 {
   color: var(--dl-color-secondary-gray500);
 }
 .meet-us-icon-group1 {
@@ -538,25 +543,25 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .meet-us-text30 {
+  .meet-us-text22 {
     color: var(--dl-color-gray-white);
     font-size: 18px;
   }
-  .meet-us-text32 {
+  .meet-us-text24 {
     font-style: normal;
     font-weight: 400;
   }
-  .meet-us-text33 {
+  .meet-us-text25 {
     font-weight: 700;
   }
-  .meet-us-text34 {
+  .meet-us-text26 {
     font-weight: 700;
   }
-  .meet-us-text44 {
+  .meet-us-text36 {
     color: rgb(255, 255, 255);
     text-align: center;
   }
-  .meet-us-text48 {
+  .meet-us-text40 {
     color: var(--dl-color-secondary-gray500);
   }
 }
@@ -588,19 +593,15 @@
     font-style: normal;
     font-weight: 600;
   }
+  .meet-us-text16 {
+    font-style: normal;
+    font-weight: 600;
+  }
   .meet-us-text17 {
     font-style: normal;
     font-weight: 600;
   }
-  .meet-us-text19 {
-    font-style: normal;
-    font-weight: 600;
-  }
-  .meet-us-text25 {
-    font-style: normal;
-    font-weight: 600;
-  }
-  .meet-us-text28 {
+  .meet-us-text20 {
     font-weight: 800;
   }
   .meet-us-profiles {
@@ -689,11 +690,11 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .meet-us-text43 {
+  .meet-us-text35 {
     color: #ffffff;
     text-align: center;
   }
-  .meet-us-text44 {
+  .meet-us-text36 {
     font-size: 14px;
   }
   .meet-us-separator {
@@ -707,7 +708,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .meet-us-text48 {
+  .meet-us-text40 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -754,10 +755,10 @@
   .meet-us-footer1 {
     padding: var(--dl-space-space-unit);
   }
-  .meet-us-text43 {
+  .meet-us-text35 {
     color: rgb(255, 255, 255);
   }
-  .meet-us-text44 {
+  .meet-us-text36 {
     font-size: 14px;
     align-self: center;
     font-style: normal;
@@ -773,7 +774,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .meet-us-text48 {
+  .meet-us-text40 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
